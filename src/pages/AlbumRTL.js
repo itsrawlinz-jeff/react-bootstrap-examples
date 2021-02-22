@@ -2,14 +2,13 @@
 import Header from '../components/Header'
 import CustomHelmet from '../components/CustomHelmet'
 
-// page components
-import Content from '../components/album/Content'
+// contents
+import Content from '../components/albumrtl/Content'
 
-const Album = () => {
+const AlbumRTL = () => {
   // page content
-  const pageTitle = 'Album'
+  const pageTitle = 'مثال الألبوم'
   const pageDescription = 'another page implimented with React-Router'
-
   return (
     <div>
       <CustomHelmet titleTage={pageTitle} />
@@ -19,4 +18,4 @@ const Album = () => {
   )
 }
 
-export default Album
+export default AlbumRTL

@@ -2,12 +2,12 @@
 import Header from '../components/Header'
 import CustomHelmet from '../components/CustomHelmet'
 
-// page components
-import Content from '../components/album/Content'
+// conent
+import Content from '../components/blog/Content'
 
-const Album = () => {
+const Blog = () => {
   // page content
-  const pageTitle = 'Album'
+  const pageTitle = 'Blog'
   const pageDescription = 'another page implimented with React-Router'
 
   return (
@@ -19,4 +19,4 @@ const Album = () => {
   )
 }
 
-export default Album
+export default Blog
