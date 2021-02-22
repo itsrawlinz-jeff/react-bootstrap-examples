@@ -1,9 +1,9 @@
 import { Helmet } from 'react-helmet'
 
-const CustomHelmet = (props) => {
+const CustomHelmet = ({titleTage}) => {
   return (
     <Helmet>
-      <title>{props.titleTage}</title>
+      <title>{titleTage}</title>
     </Helmet>
   )
 }

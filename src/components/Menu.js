@@ -6,13 +6,13 @@ const Menu = () => {
     <>
       <Navbar bg='dark' variant='dark' expand='lg' collapseOnSelect>
         <Container>
-          <LinkContainer to='/react-bootstrap-starter'>
-            <Navbar.Brand>Template</Navbar.Brand>
+          <LinkContainer to='/'>
+            <Navbar.Brand>Bootstrap Examples</Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='mr-auto'>
-              <LinkContainer to='/react-bootstrap-starter/about'>
+              <LinkContainer to='/about'>
                 <Nav.Link>About</Nav.Link>
               </LinkContainer>
             </Nav>
