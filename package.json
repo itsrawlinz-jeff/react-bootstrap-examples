@@ -1,8 +1,7 @@
 {
-  "name": "react-bootstrap-starter",
-  "homepage": "http://ChrisAchinga.github.io/react-bootstrap-starter",
+  "name": "react-bootstrap-examples",
   "author": "Chris Achinga",
-  "version": "0.2.0",
+  "version": "0.0.1",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
