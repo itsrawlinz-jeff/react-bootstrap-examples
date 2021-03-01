@@ -1,9 +1,13 @@
+import { Container, Row } from 'react-bootstrap'
+
+import blog from '../../data/blog'
+
 const Content = () => {
   return (
     <main>
       <div class='album py-5 bg-light'>
-        <div class='container'>
-          <div class='row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3'>
+        <Container>
+          <Row class='row-cols-1 row-cols-sm-2 row-cols-md-3 g-3'>
             <div class='col'>
               <div class='card shadow-sm'>
                 <svg
@@ -411,8 +415,8 @@ const Content = () => {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
+          </Row>
+        </Container>
       </div>
     </main>
   )
